@@ -3,7 +3,7 @@
   "version": "0.6.0",
   "private": false,
   "description": "Tools for scad-builder project.",
-  "main": "scad-builder-proj",
+  "main": "scad-builder-proj.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
