@@ -1,0 +1,14 @@
+defaults:
+  header: "// header : scad-builder test"
+  footer: "// footer"
+  include: 
+  - ./lib/util.scad
+models:
+
+- dest: sample1
+  module: main
+  func: sample1
+
+- dest: sample2
+  module: main
+  func: sample2
