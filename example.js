@@ -6,7 +6,7 @@ const {
   translate, scale, rotate, mirror, 
   multmatrix, minkowski, hull, 
   linear_extrude, rotate_extrude, color, text, 
-} = require('scad-builder');
+} = require('scad-builder-core');
 
 
 let p = {

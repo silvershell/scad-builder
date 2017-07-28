@@ -15,7 +15,7 @@ const plumber = require('gulp-plumber');
 const shell = require('gulp-shell');
 const reload = require('require-reload')(require);
 
-const scadbuilder = require('scad-builder');
+const scadbuilder = require('scad-builder-core');
 
 // #scad-builder:begin
 const {
@@ -24,7 +24,7 @@ const {
     union, difference, intersection, translate, scale, rotate, mirror, 
     multmatrix, minkowski, hull, linear_extrude, rotate_extrude, 
     color, text,
-} = require('scad-builder');
+} = require('scad-builder-core');
 // #scad-builder:end
 
 

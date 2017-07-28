@@ -1,27 +1,27 @@
 {
-  "name": "scad-builder-proj",
+  "name": "scad-builder",
   "version": "0.6.0",
   "private": false,
   "description": "Tools for scad-builder project.",
-  "main": "scad-builder-proj.js",
+  "main": "scad-builder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silvershell/scad-builder-proj.git"
+    "url": "git+https://github.com/silvershell/scad-builder.git"
   },
   "keywords": [
     "openscad",
     "scad",
     "builder"
   ],
-  "author": "silvershell <silvershell100@gmail.com> (https://github.com/silvershell/scad-builder-proj)",
+  "author": "silvershell <silvershell100@gmail.com> (https://github.com/silvershell/scad-builder)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/silvershell/scad-builder-proj/issues"
+    "url": "https://github.com/silvershell/scad-builder/issues"
   },
-  "homepage": "https://github.com/silvershell/scad-builder-proj#readme",
+  "homepage": "https://github.com/silvershell/scad-builder#readme",
   "dependencies": {
     "fs-extra": "^3.0.1",
     "gulp": "^3.9.1",

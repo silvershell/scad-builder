@@ -1,11 +1,11 @@
-# scad-builder-proj
+# scad-builder
 
 Tools for scad-builder project.
 
 ## Installation
 
 ```bash
-npm install scad-builder-proj
+npm install scad-builder
 ```
 
 ## Project Example
@@ -25,9 +25,7 @@ gulpfile.js :
 
 ```javascript
 
-const scadBuilderProj = require('scad-builder-proj');
-
-scadBuilderProj.gulpSetup();
+require('scad-builder').gulpSetup();
 
 ```
 
@@ -92,7 +90,7 @@ const {
   translate, scale, rotate, mirror, 
   multmatrix, minkowski, hull, 
   linear_extrude, rotate_extrude, color, text, 
-} = require('scad-builder');
+} = require('scad-builder-core');
 
 
 function sample1(){
